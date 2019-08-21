@@ -525,13 +525,13 @@ textarea.form-control {
 	top: 0;
 	bottom: 0;
 	background: #fa1f55;
-	background: -moz-linear-gradient(45deg, #87ECD4 0%, #fd735a 100%);
-	background: -webkit-gradient(left bottom, right top, color-stop(0%, #fa1f55), color-stop(100%, #fd735a));
-	background: -webkit-linear-gradient(45deg, #87ECD4 0%, #fd735a 100%);
-	background: -o-linear-gradient(45deg, #87ECD4 0%, #fd735a 100%);
-	background: -ms-linear-gradient(45deg, #87ECD4 0%, #fd735a 100%);
-	background: linear-gradient(45deg, #87ECD4 0%, #fd735a 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87ECD4', endColorstr='#fd735a', GradientType=1 );
+	background: -moz-linear-gradient(45deg, #00684f 0%, #b75543 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, #00684f), color-stop(100%, #b75543));
+	background: -webkit-linear-gradient(45deg, #00684f 0%, #b75543 100%);
+	background: -o-linear-gradient(45deg, #00684f 0%, #b75543 100%);
+	background: -ms-linear-gradient(45deg, #00684f 0%, #b75543 100%);
+	background: linear-gradient(45deg, #00684f 0%, #b75543 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00684f', endColorstr='#b75543', GradientType=1 );
 	opacity: 0.5;
 }
 
