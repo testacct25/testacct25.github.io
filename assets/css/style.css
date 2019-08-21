@@ -94,8 +94,8 @@ a,
 /*** Typography ***/
 
 h1 {
-	font: 500 40px/1.2 'Poppins', sans-serif;
-	letter-spacing: 3px;
+	font: 600 40px/1.2 'Poppins', sans-serif;
+	letter-spacing: 4px;
 	margin: 5px 0 5px;
 	color: #5b5963;
 }
