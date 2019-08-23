@@ -44,10 +44,21 @@ $('.header').sticky({
 	topSpacing: 0
 });
 
-$('body').scrollspy({
-	target: '.navbar-custom',
-	offset: 70
+$( document ).ready(function() {
+	$('body').scrollspy({
+		target: '.navbar-custom',
+		offset: 320
+	})
 })
+
+
+$(window).scroll(function() {
+	clearTimeout($.data(this, 'scrollTimer'));
+	$.data(this, 'scrollTimer', setTimeout(function() {
+		document.activeElement.blur();
+	}, 250));
+});
+
 
 /* ---------------------------------------------- /*
 * Background image.
