@@ -18,17 +18,12 @@ sass:
   sass_dir: _sass
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url: "https://beingeorge.com"
-
-# The shortname for your Disqus site to enable comments.
-disqus:
+url: "https://rappaport.me"
 
 # Author information - author info at the bottom of the post
-author_name: "ELLEN DOE"
+author_name: "David J. Rappaport"
 
 # Social links in the site footer
-twitter_username: "username"
-facebook_username: "username"
-googleplus_username: "+username"
-pinterest_username: "username"
-linkedin_username: "username"
+linkedin_username: "djrapp"
+instagram_username: "d_rappaport"
+

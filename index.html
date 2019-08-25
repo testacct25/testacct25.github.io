@@ -76,14 +76,12 @@ layout: default
 							</h2>
 							<div class="module-line"></div>
 						</div>
+						<p>I’m an innovator, a systems thinker, and a believer in creating things which meaningfully touch and improve people’s lives. Currently, I'm building cutting-edge hardware products with Microsoft's <a href="https://www.microsoft.com/appliedsciences/">Applied Sciences</a> incubation team.</p>
 
-						<p>I’m an innovator, a systems thinker, and a believer in creating things which meaningfully touch and improve people’s lives.</p>
+						<p>I studied <a href="https://www.colorado.edu/ecee/">electrical engineering</a> at the University of Colorado, and am wrapping up a master's in <a href="https://www.hcde.washington.edu/about">human-centered design & engineering</a> at the University of Washington. I have a track record of creativity at the intersection of these disciplines, finding highly relevant problems and answering them with impactful products and experiences.</p>
 
-						<p>Currently, I'm building cutting-edge hardware products within Microsoft's Applied Sciences incubation team. I studied electrical engineering at the University of Colorado, and am wrapping up a master's in human-centered design & engineering at the University of Washington.</p>
-
-						<p>My favorite moments involve bringing these skillsets together to solve complex human problems.</p>
-
-						<p>In my spare time, you'll find me snapping photos, making mostly pleasant sounds with turntables, kayaking, teaching students about robotics, exploring new places, and almost always cooking away on a side project.</p>
+						<p>In my spare time, you'll find me snapping photos, making mostly pleasant sounds with turntables, kayaking, teaching students about robotics, exploring new places, and doting on my wonderful cat, Rocco. I'm almost always cooking away on a side project or two. Want to make something cool together? <a href="#contact">Drop me a line</a>.</p>
+						<a class="about-downloadButton" href="{{site.baseurl}}blog.html"><i class="fa fa-file-download"></i> VIEW RESUME</a>
 
 					</div>
 
@@ -117,9 +115,6 @@ layout: default
 								{% if post.banner_image %}
 									<img src="{{ "assets/images/" | append: post.banner_preview | prepend: site.baseurl }}" alt="Blog Desc">
 								{% endif %}
-								{% if post.category %}
-								<span>{{post.category}}</span>
-								{% endif %}
 							</div>
 							<div class="blogList-desc">
 								<h3>{{post.title}}</h3>
@@ -130,7 +125,7 @@ layout: default
 				{% endfor %}
 
 				<div class="col-sm-12">
-					<a class="blog-viewMore" href="{{site.baseurl}}blog.html">VIEW MORE</a>
+					<a class="blog-viewMore" href="{{site.baseurl}}work.html">VIEW MORE</a>
 				</div>
 
 			</div><!-- .row -->
@@ -154,29 +149,10 @@ layout: default
 
 			<div class="row">
 
-				<div class="col-sm-6 col-sm-offset-3">
+				<div class="col-sm-6 col-sm-offset-3 contact-text">
 
-					<form id="contact-form" action="#">
-						<div class="ajax-hidden">
-							<div class="form-group wow fadeInUp">
-								<label class="sr-only" for="c_name">Name</label>
-								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name" required>
-							</div>
-
-							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
-								<label class="sr-only" for="c_email">Email address</label>
-								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail" required>
-							</div>
-
-							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
-								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Your message" required></textarea>
-							</div>
-
-							<button type="submit" class="btn btn-block btn-custom-2 wow fadeInUp" data-wow-delay=".3s">Send Message
-							</button>
-						</div>
-						<div class="ajax-response"></div>
-					</form>
+					+1 530.304.7958<br>
+					<a href="mailto:david@rappaport.me">david@rappaport.me</a> 
 
 				</div>
 

@@ -5,7 +5,6 @@ description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do e
 date: 2019-01-21
 banner_preview: blog3.jpg
 banner_image: blog-banner.jpg
-category: Design
 tags: [web design, blogging]
 ---
 
